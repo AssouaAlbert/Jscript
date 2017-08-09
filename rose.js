@@ -1,2 +1,4 @@
 document.getElementById("demo6").innerHTML = 5 + 6;
-document.write(5 + 60);
+function add1(){
+    document.write(5 + 6);
+}
