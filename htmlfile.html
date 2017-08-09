@@ -5,8 +5,9 @@
 
     <p id="demo">
         JavaScript can change HTML content.
-    </p>
-
+    </p> 
+    <!--This id will is used to identify only this tag and no two tags can have the same id in html. 
+        Therefore any changes made/connected to thus ud will obviously change the text in the tag.-->
     <button
         type="button"
         onclick="document.getElementById("
@@ -21,7 +22,8 @@
     <p>
         In this case JavaScript changes the src (source) attribute of an image.
     </p>
-
+<!-- Thiis code from this point will change the icon/image in the img tag with id=myImage
+    Clicking on this first button will change the image to  bulb off-->
     <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
 
     <img
@@ -29,9 +31,9 @@
         src="pic_bulboff.gif"
         style="width:100px"
     >
-
+<!--This next button tuens the bulb off by swapping the image.-->
     <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
 
-    
+
 </body>
 </html>
