@@ -80,5 +80,26 @@
         type="button"
         onclick="document.getElementById('demo4').style.display='block'"
     >Click Me!</button>
+
+    <!-- Ok Ok use the script to add javascript do not use the type="text/javascript" it is not neccesarry.
+    javascript is the default scripting for html. And it is important to add this in the body and head tags -->
+
+    <h1>
+        Adding a script into the body tag
+    </h1>
+
+    <p id="demo5">A Paragraph</p>
+
+    <button
+        type="button"
+        onclick="myFunction()"
+    >Try it</button>
+
+    <script>
+        function myFunction()
+        {  
+             document.getElementById("demo5").innerHTML = "Paragraph changed.";
+        }
+    </script>
 </body>
 </html>
