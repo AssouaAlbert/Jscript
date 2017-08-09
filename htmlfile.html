@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <h2>What Can JavaScript Do?</h2>
+    <h2>Chapter One:: What Can JavaScript Do?</h2>
 
     <p id="demo">
         JavaScript can change HTML content.
@@ -61,14 +61,24 @@
         type="button"
         onclick="document.getElementById('demo3').style.display='none'"
     >Click Me!</button>
-    <!--End Demo3-->
-    <!--This block is now different, why? here the demo4 is hidden,
+
+    <!-- End Demo3 -->
+    <!-- This block is now different, why? here the demo4 is hidden,
         that is style is set to "display:none". But after the clich, 
-        the style is set to "display:block"-->
-    <p>JavaScript can show hidden HTML elements.</p>
+        the style is set to "display:block" -->
 
-<p id="demo" style="display:none">Hello JavaScript!</p>
+    <p>
+        JavaScript can show hidden HTML elements.
+    </p>
 
-<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+    <p
+        id="demo"
+        style="display:none"
+    >Hello JavaScript!</p>
+
+    <button
+        type="button"
+        onclick="document.getElementById('demo').style.display='block'"
+    >Click Me!</button>
 </body>
 </html>
