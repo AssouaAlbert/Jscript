@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-    
-</head>
+<head></head>
 
 <body>
     <h1>
@@ -125,10 +123,16 @@
         type="button"
         onclick="add1()"
     >Add funtion in rose.js</button>
-<!--script moved to the header tag-->
-<script src="rose.js"></script>
+
+    <!-- script moved to the header tag, there was a problem with the script;
+         loading the script to the page after the demo6 tag will not print 11 -->
+    <script src="rose.js"></script>
+
     <h1>Chapter four:Objects</h1>
 
-    <!-- In this sectioin I will add the object car and its attributes/properties -->
+    <!-- In this sectioin I will add the object person and its attributes/properties -->
+    <!-- I have added the object in rose.js-->
+    <!-- This next line is to display the object properties in the demo8 tag-->
+    <p id="demo8"></p>
 </body>
 </html>
